@@ -1,0 +1,19 @@
+# Parameters for exercise 3.
+# author: Shuo Li
+# date: 2023/05/26
+
+ex3:
+  # Parameters for image reading.
+  size_img_default: [600, 600]  #  Image size. (pix).
+  # Parameters for task-1.
+  dist_eye_obj: 6.0e-1  #  Distance from the eye to the object plane. (m).
+  ratio_size_pixel: 4.66667e+3  #  Conversion factor. (pix/m).
+  ratio_ecc_rfs: 6.0e+3  #  Conversion factor. (arcmin/m).
+  radius_eye: 1.25e-2  #  Radius of the eye. (m).
+  num_interval: 10  #  Number of divided intervals.
+  t_ganglion_ON: 0  #  Threshold of ON cells.
+  t_ganglion_OFF: 0  #  Threshold of OFF cells.
+  # Parameters for task-2.
+  sigma_gabor: 1.8e-1  #  Parameters for Gabor filters.
+  Lambda_gabor: 2.0e-0
+  kernel_size_gabor: 15  #  Integer.

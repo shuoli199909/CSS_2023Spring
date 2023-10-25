@@ -1,0 +1,13 @@
+# Parameters for exercise 1.
+# Author: Shuo Li
+# Date: 2023/04/01
+# Version: 4
+
+ex1:
+  m_electrodes: 22  # Total number of electrodes
+  n_channels: 9  # Number of activated channels
+  lo_freq: 200  # Hz
+  hi_freq: 5000  # Hz
+  period_window: 6.0e-3  # sec
+  step_window: 5.0e-4  # sec
+  type_window: 'moore'

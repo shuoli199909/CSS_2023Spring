@@ -1,0 +1,7 @@
+Tips:
+1) define the rotation matrix that describes the approximate sensor
+orientation
+
+2) find the quaternion the describes the (small) rotation from the orientation
+in (1) to the actual orientation, as indicated by \vec{acc}(t=0)
+
